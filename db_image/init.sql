@@ -21,8 +21,8 @@ CREATE TABLE  emails (id SERIAL PRIMARY KEY, email VARCHAR(100) NOT NULL);
 
 INSERT INTO emails (email) VALUES ('test@test.ru');
 INSERT INTO emails (email) VALUES ('test_2@test.ru');
-INSERT INTO phone_numbers (phone) VALUES ('80000000000');
-INSERT INTO phone_numbers (phone) VALUES ('+7(000)000-00-00');
+INSERT INTO phone_numbers (phone) VALUES ('+78005553535');
+INSERT INTO phone_numbers (phone) VALUES ('+7(333)555-66-66');
 GRANT CONNECT ON DATABASE ${DB_DATABASE} TO ${DB_USER};
 GRANT pg_read_all_data TO ${DB_USER};
 GRANT pg_write_all_data TO ${DB_USER};
